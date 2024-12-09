@@ -1,1 +1,12 @@
-<p>header works!</p>
+<nav class="navbar" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#">PSW24</a>
+    /* el boton es cuando se disminuya las pantallas y se desplegue el menu*/
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" [routerLink]="['traductor']" routerLinkActive="activo">Traductor</a>
+        </div>
+      </div>
+</nav>
